@@ -4,16 +4,25 @@ import './Market.css'
 
 function Market(props){
   return (
-    <div className='flip-card'>
-      <div className='flip-card-inner'>
-        <div className='flip-card-front'>
-          <h3>{props.day}</h3>
-          <h3>{props.location}</h3>
-        </div>
-        <div className='flip-card-back'>
-          <h3>{props.hours}</h3>
-          <p><em>{props.booth}</em></p>
-        </div>
+    // <div className='flip-card'>
+    // <div className='flip-card-inner'>
+    // <div className='flip-card-front'>
+    // <h3>{props.day}</h3>
+    // <h3>{props.location}</h3>
+    // </div>
+    // <div className='flip-card-back'>
+    // <h3>{props.hours}</h3>
+    // <p><em>{props.booth}</em></p>
+    // </div>
+    // </div>
+    // </div>
+
+    <div className="grid-container">
+      <div class="grid-item">
+      <h3>{props.day}</h3>
+      <h3>{props.location}</h3>
+      <h3>{props.hours}</h3>
+      <p><em>{props.booth}</em></p>
       </div>
     </div>
   );

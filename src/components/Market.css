@@ -1,4 +1,16 @@
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.grid-container {
+  display: inline-grid;
+  border: 5px black solid;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+  background-color: darkgrey;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
 .flip-card {
   background-color: transparent;
   margin-left: 15%;
